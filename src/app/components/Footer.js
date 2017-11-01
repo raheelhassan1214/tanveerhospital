@@ -16,7 +16,7 @@ export class Footer extends React.Component{
           </ul>
         </nav>
         <div className="footer-copyright">
-          &#169; Tanveer Hospital. All rights reserved.
+          &#169; Tanveer Hospital. All rights reserved 2017.
         </div>
         <div className = "footer-logo">
           <img src="https://www.freelogoservices.com/api/main/images/1j+ojl1FOMkX9WypfBe43D6kjfKFqRVHkBzJwXs1M3EMoAJtlSAkhfVs9...w+"/>

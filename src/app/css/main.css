@@ -119,10 +119,22 @@ input, select {
   top: -28px;
   left: 12px;
   font-size: 36px;
+  color:#00a3b4;
 }
 .header-nav-container{
   float:right;
   width:245px;
+}
+#map {
+ height: 400px;
+ width: 100%;
+}
+.nav>li>a, .nav>li>a{
+  color:#00a3b4;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: #f5f5dc;
+
 }
 .header-phone{
   color: #00a3b4;
@@ -146,8 +158,9 @@ input, select {
   border: 0px;
 }
 .home-main{
-  background-color: #fff;
-  padding: 0px 0px 20px 0px;
+  padding: 10px;
+  overflow:hidden;
+  background: rgba(252, 243, 207, 0.45);
 }
 .home-container-background{
   background: #f5f5dc;
@@ -157,6 +170,30 @@ input, select {
 .carousel-container{
   background: #f5f5dc;
   padding-bottom: 1px;
+}
+.map-container{
+  padding:5px;
+  box-shadow: 0px 0px 7px 7px #999;
+  overflow:hidden;
+  float:right;
+}
+.contact-info-container{
+  overflow:hidden;
+  padding:40px;
+  float:left;
+  font-family:sans-serif;
+}
+.contact-info-container > h1{
+  font-size: 28px;
+  padding-top:10px;
+}
+.contact-info-container > h2{
+  font-size: 24px;
+  padding-top:10px;
+}
+.contact-info-container > p{
+  font-size: 18px;
+  padding-top:10px;
 }
 .footer-wrapper{
     clear:both;
