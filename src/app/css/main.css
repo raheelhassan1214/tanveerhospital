@@ -100,10 +100,12 @@ hr {
 input, select {
     vertical-align:middle;
 }
+/* App style    */
 .app-container{
     background:#F8F9F9;
     padding:0px 200px 0px 200px;
   }
+/* header style    */
 .logo-header-container{
   width:365px;
   float:left;
@@ -124,10 +126,6 @@ input, select {
 .header-nav-container{
   float:right;
   width:245px;
-}
-#map {
- height: 400px;
- width: 100%;
 }
 .nav>li>a, .nav>li>a{
   color:#00a3b4;
@@ -157,6 +155,7 @@ input, select {
   margin-bottom: 0px;
   border: 0px;
 }
+/* home page style    */
 .home-main{
   padding: 10px;
   overflow:hidden;
@@ -167,10 +166,23 @@ input, select {
   padding:0px 15px 50px 15px;
   box-shadow: 0px 0px 7px 7px #999;
 }
+/* carousel style    */
 .carousel-container{
   background: #f5f5dc;
   padding-bottom: 1px;
 }
+/* Contact  style    */
+.form-container{
+  width:500px;
+}
+.form-container input{
+  width:400px;
+}
+.form-container label{
+  padding-bottom:10px;
+}
+
+/* Location style    */
 .map-container{
   padding:5px;
   box-shadow: 0px 0px 7px 7px #999;
@@ -195,6 +207,7 @@ input, select {
   font-size: 18px;
   padding-top:10px;
 }
+/* footer style    */
 .footer-wrapper{
     clear:both;
     background-color:#00a3b4;
