@@ -134,6 +134,10 @@ input, select {
   background-color: #f5f5dc;
 
 }
+.error-message{
+  padding:10px;
+  color:red;
+}
 .header-phone{
   color: #00a3b4;
   font-size: 25px;
